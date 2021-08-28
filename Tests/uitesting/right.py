@@ -2,7 +2,7 @@
     this file is used for the right of automations_testing
 """
 from PageActions.commonfunctions import Automation_texting
-from PageObjects.automation_obj import Automation
+from PageObjects.ui_rightside import RightSide
 import time
 import yaml
 from selenium.webdriver.common.by import By
@@ -12,7 +12,7 @@ with open('../Testdata/create.yaml', 'r') as file:
 
 
 cfuntion = Automation_texting()
-g_objects = Automation
+g_objects = RightSide
 
 cfuntion.open_url('https://testautomationpractice.blogspot.com/?m=1')
 time.sleep(2)

@@ -27,6 +27,7 @@ class Automation:
     best_day = "//label[@for='RESULT_CheckBox-8_1']"
     best_time = "//option[@value='Radio-2']"
     uplode_file = "//input[@class='file_upload']"
+
     rightside_xpath = "//div[@class='column-right-outer']"
     field = "//input[@id='field1']"
     double_cleck = "//button[@ondblclick='myFunction1()']"
