@@ -1,3 +1,6 @@
+"""
+    this file is used for the write the class and it's functions
+"""
 from selenium import webdriver
 from selenium.webdriver.common.by import By
 import time
@@ -14,6 +17,10 @@ class Automation_texting:
     """
 
     def __init__(self):
+        """
+            this function will do   -
+                inti browser
+        """
         self.browser = webdriver.Chrome("/home/vinay/selenium/chromedriver")
 
     def open_url(self, url):

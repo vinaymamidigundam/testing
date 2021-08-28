@@ -1,3 +1,6 @@
+"""
+    this file is used for user interface of application
+"""
 from PageActions.commonfunctions import Automation_texting
 from PageObjects.automation_obj import Automation
 import time
